@@ -1,5 +1,3 @@
 # human-activity
-Getting and Cleaning Data Course Project from Data Science Specializtion by Johns Hopkins University
+'03 - Getting and Cleaning Data' Course Project in Data Science Specializtion (JHU)
 
-Check the app:
-https://andrey-budish.shinyapps.io/workinghours/
