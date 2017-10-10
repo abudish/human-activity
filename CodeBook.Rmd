@@ -1,0 +1,15 @@
+---
+title: "CodeBook for the peer-graded Assignment 'Getting and Cleaning Data' Course Project in Data Science Specializtion (JHU)"
+output: github_document
+---
+
+## Data Description
+
+
+
+## Variables
+
+
+
+## Performed transformations to make tidy data
+
