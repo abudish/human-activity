@@ -150,11 +150,11 @@ require(dplyr)
 tidy_url <- read.table(url(address), header = TRUE) %>% as.tbl()
 ```
 
-Tidy dataset has next dimensions: 15480 observations and 4 variables.
-Variables are: `subject, activity_type, sensor_measurment` and `average_value`.
-**There are 30 subjects, performing 6 types of activites, with 86 different sensor measurement for each of the activity.**
+Tidy dataset has next dimensions: 15480 observations and 4 variables.  
+Variables are: `subject, activity_type, sensor_measurment` and `average_value`.  
+**There are 30 subjects, performing 6 types of activites, with 86 different sensor measurement for each of the activity.**  
 
-**Each observation (row) is an average value of a specific sensor measurment, of a particular individual performing one of the activities.**
+**Each observation (row) is an average value of a specific sensor measurment (in Hz), of a particular individual performing one of the activities.**
 
 ``` r
 # First 10 rows of the tidy data
@@ -216,3 +216,6 @@ tidy_url$sensor_measurement %>% unique()
   [85] frequency_body_gyroscope_magnitude_std               frequency_body_gyroscope_jerk_magnitude_std         
   86 Levels: angle_time_body_accelerometer_jerkmean_gravitymean angle_time_body_accelerometer_mean_gravity ... time_gravity_accelerometer_std_z
 ```
+
+#### Citation
+Lichman, M. (2013). [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml). Irvine, CA: University of California, School of Information and Computer Science.
